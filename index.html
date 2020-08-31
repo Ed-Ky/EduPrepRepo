@@ -3,45 +3,84 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Edward's Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="profile2.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <header id="navbar">
             <nav>
-                <ul class="nav_links">
-                    <li><a href="#">Biography</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contacts</a></li>
+                <ul class="nav_links">                    
+                    <li><a id="main-logo" class="navbar_a" href="#"><img src="icons/programming-flag.svg"></a></li>
+                    <li><a class="navbar_b" href="#">Biography</a></li>
+                    <li><a id="projects" class="navbar_c" href="#">Projects</a></li>
+                    <li><a class="navbar_d" href="#">Contacts</a></li>
+                    <!-- id="profile-link" -->
                 </ul>
             </nav>
         </header>
         <section id="welcome-section">
-            <div >
-                <h1>Edward Kyalo</h1>
-                <h3>Software Developer</h3>
+            <div>
+                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edward Kyalo</h1>
+                <h3>Software Developer | Data Analyst</h3>
             </div>
         </section>
-        <section id="projects">
-            <article id="project-tile">
-                <div class="data-analysis">
-                    <a href="#">Data Analysis</a>
-                </div>
+        <section id="biography">
+            <article>
+                <img class="profile-image" src="images/profile-image.jpg">
             </article>
-            <article id="project-tile">
-                <div class="web-dev">
-                    <a href="#">Web Development</a>
-                </div>
-            </article>
+            <article>
+                <p>
+                I am an up-and-coming self-taught software developer and data analysis enthusiast with experience coding in Python and using data vizualisation tools like Tableau. 
+                <br>
+                I am also a final year MBChB student at Makerere University. I love trying out new recipes, listening to podcasts and watching procedural dramas. 
+                </p>
+            </article>   
+            <article>
+                <p>
+
+                </p>
+            </article>      
         </section>
-        <footer id="profile-link">
-            <nav class="footer">
+        <section id="project">
+            <h2>
+                Projects
+            </h2>
+            <div class="projects">
+                <article id="project-tile">
+                    <div>
+                        <a href="#">Data Analysis</a>
+                    </div>
+                </article>
+                <article id="project-tile">
+                    <div>
+                        <a href="#">Web Development</a>
+                    </div>
+                </article>
+                <article id="project-tile">
+                    <div>
+                        <a href="#">Other Projects</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contact-message">
+            <div>
+                <p>Contacts</p>
+            </div>
+        </section>
+        <section id="profile-link">
+            <nav class="socials">
                 <ul class="contact_links">
-                    <li><a href="https://www.facebook.com/iamedwardkyalo/"><img src="icons/facebook (1).svg"></a></li>
-                    <li><a href="https://twitter.com/ed_kyalo"><img src="icons/twitter (1).svg"></a></li>
-                    <li><a href="https://www.linkedin.com/in/edward-kyalo/"><img src="icons/linkedin.svg"></a></li>
-                    <li><a href="https://github.com/Ed-Ky"><img src="icons/github.svg"></a></li>
+                    <li><a class="navbar" href="https://www.facebook.com/iamedwardkyalo/"><img src="icons/facebook (1).svg"></a></li>
+                    <li><a class="navbar" href="https://twitter.com/ed_kyalo"><img src="icons/twitter (1).svg"></a></li>
+                    <li><a class="navbar" href="https://www.linkedin.com/in/edward-kyalo/"><img src="icons/linkedin.svg"></a></li>
+                    <li><a class="navbar" href="https://github.com/Ed-Ky"><img src="icons/github.svg"></a></li>
                 </ul>
             </nav>
-        </footer>
+        </section>
+        <section id="footer">
+            <small>
+                &copy; Copyright 2020, Edward Kyalo
+            </small> 
+        </section>
     </body>
 </html>

@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+html {
+    width:100%;
+    overflow-x:hidden;
+}
+
+body{
+    font-family: "Overpass", monospace;
+    background-image: radial-gradient(black 1.5px, transparent 0.5px), 
+        radial-gradient(black 1.2px, transparent 0.5px);
+    background-color: #184050;
+    background-position: 0 0, 30px 30px;
+    background-size: 20px 20px;
+    /* color: white; */
+    font-size: 25px;
+    
+}
+
+li, a{
+    font-weight: 300;
+    font-size: 25px;
+    color: #ecf0f1;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    position: center;
+    width: 100vw;
+}
+
+header{
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#184050;
+    position: fixed;
+
+}
+
+section{
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    margin-bottom: 10px;
+    width: 100vw;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    size: 100%;
+    color: #ecf0f1;
+    
+}
+
+#navbar {
+    height: 60px;
+    display: flex;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul li:first-child { 
+    float: left; 
+    padding-right: 70%;
+    width: 30px;
+    height: 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+    font-size: larger;
+}
+
+#welcome-section {
+    display: flex;
+    margin-right: 0;
+    top:0;
+    bottom:0;
+    padding-right: 5px;
+    padding-bottom:0%;
+    background-image: url(images/header-pic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    resize: both;
+    justify-content: center;
+
+    justify-content: center;
+}
+
+#biography {
+    word-wrap: normal;
+    display: flex;
+    height:vh;
+    width: 99%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 60vh;
+    padding-bottom: 60px;
+}
+
+#biography article {
+    padding: 20px;
+}
+
+.profile-image {
+    width: 250px;
+
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding-bottom: 60px;
+}
+
+#project article {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+    align-content: space-between;
+}
+
+#project-tile {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 30vw;
+    color: black;
+}
+
+#project-tile:nth-of-type(1){
+    background-image: url(images/data-better.jpg);
+    background-size: 100%;
+    background-position: 0em;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 41vh;
+    
+}
+
+#project-tile:nth-of-type(2){
+    background-image: url(images/web-dev-pic.jpg);
+    background-size: 100%;
+    background-position: 0em;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 41vh;
+}
+
+#project-tile:nth-of-type(3){
+    background-image: url(images/other3.jpg);
+    background-size: 100%;
+    background-position: 0em;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 41vh;
+}
+
+article div {
+    padding-bottom: 5%;
+}
+
+
+#footer, #contact-message {
+    height: 25px;
+    padding: 0;
+    bottom: 0;
+    margin: 0;
+    font-size: 16px;
+    background-color: #184050;
+}
+
+
+#profile-link {
+    bottom: 0;
+    margin: 0;
+    padding-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100vw;
+    height: 40px;
+    text-align: center;
+    background-color:#184050;
+}
+
+#profile-link img {
+    height: 20px; 
+    width: 20px;
+    padding: 0px;
+    /* justify-content: space-around; */
+}
+
+#profile-link img:hover {
+    height: 30px; 
+    width: 30px;
+}
+
+.contact_links {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.socials {
+    padding-left: 15px;
+    padding-right: 10%;
+}
+
+#footer, #contact-message {
+    background-color: #184050;
+}
